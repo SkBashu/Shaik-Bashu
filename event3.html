@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://img.freepik.com/free-photo/contact-us-communication-support-service-assistance-concept_53876-128103.jpg?w=996&t=st=1701261419~exp=1701262019~hmac=a887f746141a73647379605f224890054d0e0c620ab9f2bd332b3dcc2ab8b29d');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+    }
+
+    section {
+      color: #fff;
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 1em;
+      background-color: rgba(255, 255, 255, 0.2);
+      /* Adjust the alpha value for translucency */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+    }
+
+    form {
+      display: grid;
+      gap: 10px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 0.5em;
+      background-color: rgba(255, 255, 255, 0.2);
+      /* Adjust the alpha value for translucency */
+      border-radius: 15px;
+    }
+
+    input[type="submit"] {
+      background-color: #0f25a0;
+      color: #fff;
+      cursor: pointer;
+      border: none;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #f50707;
+    }
+
+    footer {
+      background-color: none;
+      color: antiquewhite;
+      text-align: center;
+      padding: 1em;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .footer-icons {
+      font-size: 14px;
+      margin-right: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+
+  <section>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Contact Us Page</p>
+    <span class="footer-icons">&#9742; 0183-689475</span><br>
+    <span class="footer-icons">&#127968; Lovely Professional University</span><br>
+    <span class="footer-icons">&#9993; unknown12345@gmail.com</span>
+  </footer>
+</body>
+
+</html>
